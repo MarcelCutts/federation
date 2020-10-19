@@ -16,7 +16,7 @@ type Query {
 interface Node 
 @owner(graph: "nodes")
 {
-    id: ID! @external
+    id: ID! 
     createdAt: String! @external
 }
 
